@@ -39,9 +39,13 @@ VFW 1201 -->
 				<ul>
 					<li><label for="comments"> Describe the gift:</label><textarea id="comments" placeholder="What is it?"></textarea></li>
 				</ul>
+				<ul>
+				<legend>Quanity:</legend>
+				<input type="range" name="ammount" min="1" max="100" />
+				</ul>
 			    	<legend>Where to buy it:</legend>
-					<li><input type="radio" checked value="Online" id="online" name="location" /><label for="online">Online</label></li>
-					<li><input type="radio" value="In a store." id="store" name="location" /><label for="store">In a store.</label></li>
+					<input type="radio" checked value="Online" id="online" name="location" /><label for="online">Online</label></li>
+					<input type="radio" value="In a store." id="store" name="location" /><label for="store">In a store.</label></li>
 				<ul>
 					<li><label for="store">Store Name:</label><input type="text" id="store" placeholder="ex: Zappos.com, Best Buy" /></li>
 					<li><label for="url">Product URL (if applicable):</label><input type="url" id="url" /></li>
